@@ -7,6 +7,7 @@
 
     section#login{
         width: 90vw;
+        height: 310px;
     }
 
     section#login > div#imagen{
@@ -29,9 +30,12 @@
 @media screen and (min-width: 992px) {
     section#login{
         width: 900px;
+        height: 330px;
     }
 
     section#login > div#imagen{
+        background-size: cover;
+        background-position: left center;
         float: right;
         width: 43%;
         height: 100%;
